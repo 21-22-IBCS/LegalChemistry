@@ -22,6 +22,21 @@ if __name__=="__main__":
     main()
 
 
+#palindrome
+def palindrome(string):
+    opposite_str = str(string[::-1])
+    if string == opposite_str:
+        print("True")
+    else:
+        print("False")
+    
+def main():
+    coffeeShop()
+    word = input("\nEnter word to check palindrome: ")
+    palindrome(word)
+    
+if __name__ == "__main__":
+    main()
 
 
 
